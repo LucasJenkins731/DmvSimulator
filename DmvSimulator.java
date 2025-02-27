@@ -22,5 +22,6 @@ public class DmvSimulator {
         }
         System.out.println("Called number: " + number);
         System.out.println("Thank you for waiting!");
+        System.out.println("You do not have the correct paperwork...");
     }
 }

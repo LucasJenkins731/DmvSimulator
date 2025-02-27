@@ -8,6 +8,8 @@ public class DmvSimulator {
         int range = 200;
         int number = random.nextInt(range);
 
+        int miracle = random.nextInt(100);
+
         System.out.println("Your number is " + number + ". Please wait until your number is called.");
 
         int wait = number + 1;
@@ -21,6 +23,12 @@ public class DmvSimulator {
         }
         System.out.println("Called number: " + number);
         System.out.println("Thank you for waiting!");
-        System.out.println("You didnt read the instructions? Wrong form. Your mistake not mine. NEXT!");
+
+        if (miracle == 3) {
+            System.out.println("Thank you for filling out your paperwork properly. Have a good day!");
+        }
+        else {
+            System.out.println("You didnt read the instructions? Wrong form. Your mistake not mine. NEXT!");
+        }
     }
 }

@@ -28,7 +28,7 @@ public class DmvSimulator {
             System.out.println("Thank you for filling out your paperwork properly. Have a good day!");
         }
         else {
-            System.out.println("You didnt read the instructions? Wrong form. Your mistake not mine. NEXT!");
+            System.out.println("You didnt read the instructions? Wrong form. MUAHAHAHA Your mistake not mine. NEXT!");
         }
     }
 }

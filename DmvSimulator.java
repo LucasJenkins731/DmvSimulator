@@ -17,7 +17,6 @@ public class DmvSimulator {
             if (wait > range) {
                 wait = 1;
             }
-            
             wait++;
         }
         System.out.println("Called number: " + number);
